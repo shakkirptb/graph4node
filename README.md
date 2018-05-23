@@ -1,2 +1,2 @@
 # graph4node
-querying system no no-sql data
+A library to create interrelated node system which enables querying to find data
