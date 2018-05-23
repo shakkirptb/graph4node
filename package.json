@@ -1,1 +1,38 @@
-s
+{
+  "name": "graph4node",
+  "version": "1.0.1",
+  "description": "A library to create interrelated node system which enables querying to find data",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakkirptb/graph4node.git"
+  },
+  dependencies:{
+	"ootil":"*",
+	"node4node":"*"
+  },
+  "keywords": [
+    "neo4j",
+	"graph",
+	"nosql",
+	"graph 4 node",
+	"graph4node",
+    "node js",
+	"array",
+    "query",
+	"relation",
+    "query array"
+  ],
+  "author": "Muhammed Shakkir TK<shakkirptb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shakkirptb/graph4node/issues"
+  },
+  "homepage": "https://github.com/shakkirptb/graph4node#readme"
+}
