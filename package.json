@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/shakkirptb/graph4node.git"
   },
-  dependencies:{
+  "dependencies":{
 	"ootil":"*",
 	"node4node":"*"
   },
