@@ -1,67 +1,38 @@
 {
-  "_from": "graph4node",
-  "_id": "graph4node@1.0.3",
-  "_inBundle": false,
-  "_integrity": "sha512-N/8laixJSjIva5JFM05yu6pzvDhnuYOn+Z4ak/FgU0j9iE34HssBiPegUwvGi8CzyhHLI5Xx3o/38ghXO97kJA==",
-  "_location": "/graph4node",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "graph4node",
-    "name": "graph4node",
-    "escapedName": "graph4node",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/graph4node/-/graph4node-1.0.3.tgz",
-  "_shasum": "6d7e656a5ac5bc2daea3ba182d9bf3e7faf1c7cb",
-  "_spec": "graph4node",
-  "_where": "D:\\ShAkKiR\\WORKSHOP\\graph4node\\school-graph4node",
-  "author": {
-    "name": "Muhammed Shakkir TK",
-    "email": "shakkirptb@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/shakkirptb/graph4node/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "node4node": "*",
-    "ootil": "*"
-  },
-  "deprecated": false,
+  "name": "graph4node",
+  "version": "1.0.3",
   "description": "A library to create interrelated node system which enables querying to find data",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
-  },
-  "homepage": "https://github.com/shakkirptb/graph4node#readme",
-  "keywords": [
-    "neo4j",
-    "graph",
-    "nosql",
-    "graph 4 node",
-    "graph4node",
-    "node js",
-    "array",
-    "query",
-    "relation",
-    "query array"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "graph4node",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shakkirptb/graph4node.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakkirptb/graph4node.git"
+  },
+  "dependencies":{
+	"ootil":"*",
+	"node4node":"*"
+  },
+  "keywords": [
+    "neo4j",
+	"graph",
+	"nosql",
+	"graph 4 node",
+	"graph4node",
+    "node js",
+	"array",
+    "query",
+	"relation",
+    "query array"
+  ],
+  "author": "Muhammed Shakkir TK<shakkirptb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shakkirptb/graph4node/issues"
+  },
+  "homepage": "https://github.com/shakkirptb/graph4node#readme"
 }
