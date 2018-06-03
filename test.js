@@ -32,6 +32,23 @@ var appu = schoolGraph.createNode({id:"appu",isA:student,marks:90,isPartOf:[chem
 var raj = schoolGraph.createNode({id:"raj",isA:student,marks:70,isPartOf:[chemistry]});
 
 
-console.assert(schoolGraph.nodes.all.school.has.length==12, "failed");//all nodes
-console.assert(schoolGraph.execute({select:"*",from:[student,physics],where:{mark:{$gt:70}}})[0].id=="shakkir", "failed");//query1
-console.assert(schoolGraph.execute({select:"*",from:[student],where:{mark:{$le:70}}}).length==2, "failed");//query2
+console.assert(schoolGraph.nodes.all.school.has.length == 12, "failed");// all
+																		// nodes
+console.assert(schoolGraph.execute({
+	select : "*",
+	from : [ student, physics ],
+	where : {
+		mark : {
+			$gt : 70
+		}
+	}
+})[0].id == "shakkir", "failed");// query1
+console.assert(schoolGraph.execute({
+	select : "*",
+	from : [ student ],
+	where : {
+		mark : {
+			$le : 70
+		}
+	}
+}).length == 2, "failed");//query2
